@@ -2,11 +2,13 @@
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("MADRIDD");
-
-
-        Console.WriteLine(args.Length);
+        Console.WriteLine(Add(4, 8)
 
     
+    }
+
+    static int Add(int x, int y)
+    {
+        return x + y;
     }
 }
