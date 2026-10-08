@@ -29,9 +29,9 @@
         if (y == 0)
         {
             Console.WriteLine("ERROR: División entre cero");
+            Console.WriteLine("Devuelve cero");
             return 0;
         }
-
         else
         {
             return x / y;
