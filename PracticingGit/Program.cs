@@ -20,12 +20,23 @@
         return x * y;
     }
 
-
     static int Subtract(int x, int y)
     {
         return x - y;
+
     static int Divide(int x, int y)
     {
-        return x / y;
+        if (y == 0)
+        {
+            Console.WriteLine("ERROR: División entre cero");
+            Console.WriteLine("Devuelve cero");
+            return 0;
+        }
+        else
+        {
+            return x / y;
+        }
     }
-}
+
+
+    }
