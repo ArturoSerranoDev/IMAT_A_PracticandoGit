@@ -2,7 +2,11 @@
 {
     static void Main(string[] args)
     {
+
+        Console.WriteLine(Subtract(6, 1));
+
         Console.WriteLine(Divide(2, 1));
+
     
     }
 
@@ -16,6 +20,10 @@
         return x * y;
     }
 
+
+    static int Subtract(int x, int y)
+    {
+        return x - y;
     static int Divide(int x, int y)
     {
         return x / y;
